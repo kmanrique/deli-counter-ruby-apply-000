@@ -27,3 +27,18 @@ def now_serving(shop_name)
     shop_name.delete(shop_name[0])
   end
 end
+
+##
+
+def take_a_number( ticket_count, independent_line)
+   i = 0
+  while i < independent_line.length
+    i ++
+    ticket_count = i
+  end
+  independent_line = []
+  independent_line.push()
+  place_in_line = .length
+  puts "Welcome, #{name}. You are number #{place_in_line} in line."
+end
+
